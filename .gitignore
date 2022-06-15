@@ -1,0 +1,13 @@
+
+*.o
+autoconf.mk
+.depend
+*.bin
+*.axf
+*.map
+plat.mk
+.module.mk
+*.elf
+*.lds
+*.patch
+*.swp

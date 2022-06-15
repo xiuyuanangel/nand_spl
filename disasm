@@ -1,0 +1,2 @@
+${CROSS_COMPILE}objdump -D -b binary -m arm boot0_sdcard.fex > 0.0000
+${CROSS_COMPILE}objdump -D -b binary -m arm ../longan_MQ.img.dump/boot0_nand.fex
