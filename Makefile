@@ -67,7 +67,7 @@ ifeq ($(buildconfig), $(wildcard $(buildconfig)))
 endif
 
 CPU := armv7
-CROSS_COMPILE := /data/allwinner/tina-d1-open/lichee/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-
+CROSS_COMPILE ?= /data/allwinner/tina-d1-open/lichee/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/arm-linux-gnueabi-
 
 #check input param
 MK_FILE_CHANGE := $(shell if [ x$(p) != x ]; then echo yes; else echo no; fi;)
